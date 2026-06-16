@@ -71,3 +71,20 @@ def set_limit(mac, limit):
             return device
 
     return None
+
+def set_curfew(mac, start_time, end_time):
+
+    devices = load_known_devices()
+
+    for device in devices:
+
+        if device["mac"].lower() == mac.lower():
+
+            device["curfew_start"] = start_time
+            device["curfew_end"] = end_time
+
+            save_known_devices(devices)
+
+            return device
+
+    return None

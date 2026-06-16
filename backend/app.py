@@ -7,6 +7,7 @@ from scanner.device_registry import (
     rename_device,
     set_limit
 )
+from scanner.device_registry import set_curfew
 
 app = Flask(__name__)
 
@@ -186,6 +187,27 @@ def set_screen_limit():
 
     return jsonify({
         "message": "Limit updated",
+        "device": device
+    })
+
+@app.route("/set-curfew", methods=["POST"])
+def update_curfew():
+
+    data = request.json
+
+    device = set_curfew(
+        data["mac"],
+        data["start"],
+        data["end"]
+    )
+
+    if not device:
+        return jsonify({
+            "error": "Device not found"
+        }), 404
+
+    return jsonify({
+        "message": "Curfew updated",
         "device": device
     })
 
