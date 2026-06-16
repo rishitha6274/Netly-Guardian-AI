@@ -88,3 +88,4 @@ def set_curfew(mac, start_time, end_time):
             return device
 
     return None
+
