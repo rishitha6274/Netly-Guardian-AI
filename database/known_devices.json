@@ -8,10 +8,10 @@
         "curfew_end": ""
     },
     {
-        "name": "Rishitha Phone",
+        "name": "Rishitha iPhone",
         "owner": "Rishitha",
         "mac": "80:84:89:9e:de:5f",
-        "daily_limit_minutes": 0,
+        "daily_limit_minutes": 60,
         "curfew_start": "",
         "curfew_end": ""
     }

@@ -2,7 +2,11 @@ from flask import Flask, jsonify
 import json
 from scanner.limit_checker import check_limits
 from flask import request
-from scanner.device_registry import register_device
+from scanner.device_registry import (
+    register_device,
+    rename_device,
+    set_limit
+)
 
 app = Flask(__name__)
 
@@ -48,7 +52,10 @@ def device_summary():
     known_macs = {}
 
     for device in known_devices:
-        known_macs[device["mac"].lower()] = device["name"]
+        known_macs[device["mac"].lower()] = {
+            "name": device["name"],
+            "owner": device["owner"]
+        }
 
     summary = []
 
@@ -139,6 +146,46 @@ def trust_device():
 
     return jsonify({
         "message": "Device registered successfully",
+        "device": device
+    })
+
+@app.route("/rename-device", methods=["POST"])
+def rename_known_device():
+
+    data = request.json
+
+    device = rename_device(
+        data["mac"],
+        data["name"]
+    )
+
+    if not device:
+        return jsonify({
+            "error": "Device not found"
+        }), 404
+
+    return jsonify({
+        "message": "Device renamed",
+        "device": device
+    })
+
+@app.route("/set-limit", methods=["POST"])
+def set_screen_limit():
+
+    data = request.json
+
+    device = set_limit(
+        data["mac"],
+        data["limit"]
+    )
+
+    if not device:
+        return jsonify({
+            "error": "Device not found"
+        }), 404
+
+    return jsonify({
+        "message": "Limit updated",
         "device": device
     })
 
