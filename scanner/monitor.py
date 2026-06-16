@@ -3,10 +3,10 @@ import time
 from datetime import datetime
 
 from network_scan import scan_network
-
+from usage_tracker import update_usage
 
 NETWORK = "192.168.1.0/24"
-SCAN_INTERVAL = 60  # seconds
+SCAN_INTERVAL = 60  
 
 
 def load_previous_devices():
@@ -60,6 +60,7 @@ def monitor_network():
         print("\nScanning...")
 
         current_devices = scan_network(NETWORK)
+        usage = update_usage(current_devices)
 
         previous_macs = {d["mac"] for d in previous_devices}
         current_macs = {d["mac"] for d in current_devices}

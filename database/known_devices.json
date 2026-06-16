@@ -1,7 +1,18 @@
 [
     {
         "name": "Home Router",
-        "mac": "4c:ae:1c:35:55:62"
+        "owner": "Family",
+        "mac": "4c:ae:1c:35:55:62",
+        "daily_limit_minutes": 5,
+        "curfew_start": "",
+        "curfew_end": ""
+    },
+    {
+        "name": "Rishitha Phone",
+        "owner": "Rishitha",
+        "mac": "80:84:89:9e:de:5f",
+        "daily_limit_minutes": 0,
+        "curfew_start": "",
+        "curfew_end": ""
     }
 ]
-
