@@ -4,9 +4,10 @@ from datetime import datetime
 
 from network_scan import scan_network
 from usage_tracker import update_usage
+from scanner.notification_engine import add_notification
 
 NETWORK = "192.168.1.0/24"
-SCAN_INTERVAL = 60  
+SCAN_INTERVAL = 60
 
 
 def load_previous_devices():
@@ -23,6 +24,21 @@ def save_current_devices(devices):
 
     with open("database/devices.json", "w") as file:
         json.dump(devices, file, indent=4)
+
+
+def load_known_macs():
+
+    try:
+        with open("database/known_devices.json", "r") as file:
+            known_devices = json.load(file)
+
+        return {
+            device["mac"].lower()
+            for device in known_devices
+        }
+
+    except FileNotFoundError:
+        return set()
 
 
 def log_event(event_type, device):
@@ -60,10 +76,20 @@ def monitor_network():
         print("\nScanning...")
 
         current_devices = scan_network(NETWORK)
-        usage = update_usage(current_devices)
 
-        previous_macs = {d["mac"] for d in previous_devices}
-        current_macs = {d["mac"] for d in current_devices}
+        update_usage(current_devices)
+
+        known_macs = load_known_macs()
+
+        previous_macs = {
+            device["mac"]
+            for device in previous_devices
+        }
+
+        current_macs = {
+            device["mac"]
+            for device in current_devices
+        }
 
         # New devices joined
         for device in current_devices:
@@ -72,6 +98,22 @@ def monitor_network():
 
                 log_event("device_joined", device)
 
+                if device["mac"].lower() in known_macs:
+
+                    add_notification(
+                        "Known Device Joined",
+                        f"{device['ip']} joined network",
+                        "low"
+                    )
+
+                else:
+
+                    add_notification(
+                        "Unknown Device",
+                        f"{device['ip']} joined network",
+                        "high"
+                    )
+
         # Devices left
         for device in previous_devices:
 
@@ -79,11 +121,18 @@ def monitor_network():
 
                 log_event("device_left", device)
 
+                add_notification(
+                    "Device Left",
+                    f"{device['ip']} left network",
+                    "low"
+                )
+
         save_current_devices(current_devices)
 
         previous_devices = current_devices
 
         print("Monitoring active...")
+
         time.sleep(SCAN_INTERVAL)
 
 

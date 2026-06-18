@@ -12,7 +12,7 @@
         "owner": "Rishitha",
         "mac": "80:84:89:9e:de:5f",
         "daily_limit_minutes": 60,
-        "curfew_start": "22:00",
-        "curfew_end": "07:00"
+        "curfew_start": "00:00",
+        "curfew_end": "23:39"
     }
 ]

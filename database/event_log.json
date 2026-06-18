@@ -100,5 +100,4001 @@
         "ip": "192.168.1.38",
         "mac": "4e:76:1b:7e:c2:4e",
         "timestamp": "2026-06-10 21:27:52"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.44",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 15:22:48"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "4e:76:1b:7e:c2:4e",
+        "timestamp": "2026-06-17 15:22:48"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.40",
+        "mac": "4e:76:1b:7e:c2:4e",
+        "timestamp": "2026-06-17 15:25:55"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 15:25:55"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 15:26:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.40",
+        "mac": "4e:76:1b:7e:c2:4e",
+        "timestamp": "2026-06-17 15:27:59"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.40",
+        "mac": "4e:76:1b:7e:c2:4e",
+        "timestamp": "2026-06-17 15:29:01"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 15:29:01"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 15:30:03"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.40",
+        "mac": "4e:76:1b:7e:c2:4e",
+        "timestamp": "2026-06-17 15:30:03"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 15:31:05"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 15:31:05"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-17 15:48:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 15:48:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 15:48:23"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:06:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-17 16:06:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:08:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:09:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:10:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:11:22"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:11:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:12:24"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:12:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:12:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:12:24"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:13:26"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:13:26"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:14:28"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:14:28"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:15:30"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:16:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:17:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:17:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:18:37"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:19:39"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:20:41"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:22:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:22:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:23:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:23:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:25:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:25:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:25:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:26:54"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:26:54"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:26:54"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:30:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:30:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:31:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:31:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:31:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:32:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:33:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:34:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:34:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:36:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:37:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:38:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:38:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:38:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:39:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:39:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:40:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:41:23"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:41:23"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:42:26"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:42:26"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:43:28"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:43:28"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:44:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:44:30"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:45:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:45:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:46:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:46:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 16:47:36"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:47:36"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:47:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:49:41"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:49:41"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:49:41"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:50:43"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 16:50:43"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:50:43"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:54:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:55:54"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:55:54"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 16:56:56"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 16:56:56"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 16:59:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:00:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:01:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:01:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:02:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:02:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:03:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:03:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:03:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 17:04:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:04:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:04:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 17:05:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:05:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:06:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:07:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:08:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:09:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:09:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:09:21"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:10:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:10:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:10:23"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:11:26"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:12:28"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:13:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:14:32"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:15:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:16:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:16:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:16:36"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:17:38"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:17:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:18:41"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:20:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 17:37:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:42:52"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:42:52"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 17:42:52"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:42:52"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:43:54"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:44:56"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:44:56"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:44:56"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:45:58"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:45:58"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:45:58"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:47:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 17:47:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:48:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:48:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 17:49:05"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 17:49:05"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 17:49:05"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:51:09"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 17:53:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 17:54:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:56:20"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:57:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 17:58:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:00:28"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:05:39"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:08:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 18:10:50"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 18:11:52"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:20:09"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 18:22:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:22:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 18:23:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:25:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 18:45:31"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:20:32"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:27:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:28:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:29:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:30:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:31:56"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:34:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:35:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:36:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:37:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:40:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:41:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:45:23"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 19:46:26"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:46:26"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 19:48:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:48:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 19:49:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 19:52:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:52:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 19:53:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:53:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 19:54:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 19:55:20"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 19:56:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 20:02:28"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 20:03:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:07:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:11:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:12:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:13:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:14:53"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:15:56"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:16:58"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:18:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:19:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 20:53:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 20:54:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:55:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 20:55:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 20:56:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:56:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 20:58:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:02:38"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 21:03:40"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:04:43"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 21:04:43"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:05:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:07:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:08:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.41",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-17 21:08:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:09:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:10:55"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:11:58"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:14:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:15:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:16:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:20:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:22:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:24:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:25:25"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:27:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:28:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:30:36"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:31:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:32:40"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:33:42"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:40:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:42:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:45:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:47:10"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:49:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:50:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:52:21"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 21:56:29"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:05:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:06:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:08:55"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:12:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:13:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:14:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:17:12"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:18:14"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:22:23"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 22:23:25"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:23:25"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 22:24:27"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 22:25:30"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 22:26:32"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 22:27:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 22:30:40"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "16:17:a4:25:0b:4a",
+        "timestamp": "2026-06-17 22:31:42"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.1",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-17 22:32:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 22:32:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.1",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-17 22:33:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 22:33:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 22:33:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-17 22:34:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:35:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:36:53"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:37:55"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:38:57"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:43:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:47:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-17 22:47:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:50:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 22:51:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 22:52:25"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:54:29"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:57:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 22:58:38"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 22:58:38"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 22:59:40"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 23:00:42"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 23:01:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-17 23:01:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 23:02:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 23:06:55"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-17 23:07:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.1",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-17 23:09:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.1",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-18 08:17:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 08:19:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:20:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 08:20:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 08:21:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 08:23:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:24:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:29:32"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:31:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:35:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:36:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:44:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:46:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:47:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:48:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:49:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:51:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:52:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:53:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:55:26"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:56:28"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 08:59:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:00:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:01:39"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:02:41"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:05:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:05:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:06:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:06:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:07:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:09:56"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:10:58"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:12:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:12:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:13:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:13:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:13:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:14:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:14:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:15:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:15:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:15:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:16:09"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:17:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:18:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:19:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:19:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:20:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:20:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:22:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:24:26"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:26:30"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:28:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:28:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 09:29:37"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 09:29:37"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:30:39"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:31:41"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:31:41"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 09:32:43"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:36:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:38:56"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:42:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:43:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 09:43:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:44:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 09:44:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:45:09"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:46:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:47:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:51:21"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:52:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 09:53:26"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:55:30"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 09:55:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:56:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:57:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 09:59:39"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 10:00:41"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 10:02:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 10:03:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 10:04:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:05:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 10:06:54"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:06:54"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:08:58"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 10:08:58"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 10:11:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:12:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 10:12:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:15:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:16:13"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:17:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:18:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:19:19"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:21:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:27:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:28:39"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:33:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 10:39:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:39:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:40:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 10:40:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:43:09"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:43:09"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 10:44:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:44:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:49:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:50:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:51:26"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:54:32"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:56:37"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 10:59:43"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:01:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:03:52"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:04:54"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:05:56"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:06:58"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:08:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:10:05"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:11:07"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:12:09"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 11:13:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 11:14:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:16:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:17:20"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:18:22"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:19:24"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:22:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.33",
+        "mac": "8e:57:c9:63:4a:ee",
+        "timestamp": "2026-06-18 11:22:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:23:28"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.33",
+        "mac": "8e:57:c9:63:4a:ee",
+        "timestamp": "2026-06-18 11:23:28"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:26:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:26:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:27:36"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:29:40"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:31:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:32:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:33:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:33:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:34:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:34:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:35:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 11:36:55"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:36:55"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 11:37:58"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:39:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:39:00"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 11:40:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:40:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:42:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:43:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:44:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 11:45:13"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:47:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:48:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:53:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:54:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 11:59:43"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 11:59:43"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 12:00:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 12:01:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 12:02:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 12:20:31"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 12:20:31"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 12:28:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 12:28:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 12:28:24"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 12:32:01"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 13:02:10"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:02:10"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 13:19:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 13:20:03"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.1",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-18 13:20:03"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.1",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-18 13:21:05"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 13:21:05"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 13:21:05"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 13:22:07"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:23:09"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 13:23:09"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 13:24:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:25:14"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:26:16"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:27:18"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:29:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:29:22"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:30:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:31:27"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:33:31"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 13:33:31"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:36:37"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:38:42"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:40:46"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:43:52"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:46:59"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:48:01"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:52:09"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:53:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:54:14"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:55:16"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:55:16"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:56:18"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:56:18"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:57:20"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 13:57:20"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 13:57:20"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:58:22"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 13:59:24"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:00:27"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:00:27"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:00:27"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:06:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:06:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:07:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:07:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:08:10"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:11:16"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:12:18"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:13:21"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:16:27"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:21:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:21:38"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:21:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:22:40"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:22:40"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:22:40"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:24:44"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:24:44"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:25:46"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:25:46"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:26:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:27:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:27:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:28:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:28:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:28:53"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:29:55"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:29:55"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:30:57"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:30:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:31:59"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:33:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:33:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:34:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:35:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:36:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:36:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:36:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:37:10"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:37:10"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:37:10"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:38:12"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:38:12"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:39:15"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:39:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:40:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:40:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:41:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:42:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:42:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 14:47:31"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 14:47:31"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 14:48:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:48:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:49:36"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:50:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:51:40"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 14:52:42"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:52:42"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:53:44"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 14:54:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:54:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:54:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:55:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 14:56:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:56:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 14:56:51"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:56:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:57:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 14:57:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 14:59:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 14:59:57"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 15:01:00"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 15:03:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 15:04:06"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 15:06:10"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 15:07:12"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.39",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 15:07:12"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 15:08:15"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 15:15:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.34",
+        "mac": "22:a9:c1:f9:4e:18",
+        "timestamp": "2026-06-18 15:16:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:24:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:25:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:26:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:27:55"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:34:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:38:17"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:49:40"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:51:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:52:47"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 15:53:49"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 16:03:09"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.36",
+        "mac": "b6:b8:62:81:63:9e",
+        "timestamp": "2026-06-18 16:04:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:16:01"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:43:28"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:44:30"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:47:36"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:48:38"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 16:50:43"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 16:51:45"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:51:45"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 16:52:47"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 16:56:56"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 16:56:56"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 16:57:58"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:01:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:01:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:03:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:04:11"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:04:11"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:07:17"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:40:18"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:40:18"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:41:20"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:42:22"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:43:25"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:44:27"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:47:33"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:48:35"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:48:35"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:50:40"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:51:42"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:51:42"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:52:44"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:52:44"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:53:46"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:53:46"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:55:50"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:56:53"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 17:58:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:58:57"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 17:59:59"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:02:03"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:04:08"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:06:12"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:06:12"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:07:14"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:08:16"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:10:21"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:10:21"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:11:23"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:15:31"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:16:33"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:25:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.38",
+        "mac": "a2:30:40:a7:22:94",
+        "timestamp": "2026-06-18 18:25:57"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 18:43:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:44:37"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:47:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 18:55:41"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:02:59"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:04:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:05:04"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:05:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:06:06"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:07:08"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:12:19"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:15:25"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:16:27"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:18:32"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:19:34"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:19:34"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:23:42"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:24:44"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:26:49"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:27:51"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:28:53"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:30:57"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:33:02"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:33:02"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.35",
+        "mac": "18:d4:3d:75:e3:cc",
+        "timestamp": "2026-06-18 19:34:04"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:37:10"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:38:12"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:44:25"
+    },
+    {
+        "event": "device_left",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:45:27"
+    },
+    {
+        "event": "device_joined",
+        "ip": "192.168.1.37",
+        "mac": "6e:31:fb:43:13:ae",
+        "timestamp": "2026-06-18 19:46:29"
     }
 ]
