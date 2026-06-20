@@ -790,5 +790,293 @@
         "severity": "high",
         "read": false,
         "timestamp": "2026-06-20 15:10:36"
+    },
+    {
+        "id": 100,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:11:38"
+    },
+    {
+        "id": 101,
+        "title": "Device Left",
+        "message": "192.168.1.33 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:11:38"
+    },
+    {
+        "id": 102,
+        "title": "Unknown Device",
+        "message": "192.168.1.33 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:12:40"
+    },
+    {
+        "id": 103,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:12:40"
+    },
+    {
+        "id": 104,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:13:42"
+    },
+    {
+        "id": 105,
+        "title": "Device Left",
+        "message": "192.168.1.37 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:13:42"
+    },
+    {
+        "id": 106,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:13:42"
+    },
+    {
+        "id": 107,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:14:44"
+    },
+    {
+        "id": 108,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:14:44"
+    },
+    {
+        "id": 109,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:15:46"
+    },
+    {
+        "id": 110,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:15:46"
+    },
+    {
+        "id": 111,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:16:49"
+    },
+    {
+        "id": 112,
+        "title": "Unknown Device",
+        "message": "192.168.1.37 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:17:51"
+    },
+    {
+        "id": 113,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:35:08"
+    },
+    {
+        "id": 114,
+        "title": "Device Left",
+        "message": "192.168.1.37 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:35:08"
+    },
+    {
+        "id": 115,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 15:55:50"
+    },
+    {
+        "id": 116,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 15:55:50"
+    },
+    {
+        "id": 117,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:06:48"
+    },
+    {
+        "id": 118,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:06:48"
+    },
+    {
+        "id": 119,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:07:51"
+    },
+    {
+        "id": 120,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:08:53"
+    },
+    {
+        "id": 121,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:10:57"
+    },
+    {
+        "id": 122,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:11:59"
+    },
+    {
+        "id": 123,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:13:01"
+    },
+    {
+        "id": 124,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:14:03"
+    },
+    {
+        "id": 125,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:14:03"
+    },
+    {
+        "id": 126,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:15:06"
+    },
+    {
+        "id": 127,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:16:08"
+    },
+    {
+        "id": 128,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:17:10"
+    },
+    {
+        "id": 129,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:18:12"
+    },
+    {
+        "id": 130,
+        "title": "Device Left",
+        "message": "192.168.1.33 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:18:12"
+    },
+    {
+        "id": 131,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:19:14"
+    },
+    {
+        "id": 132,
+        "title": "Unknown Device",
+        "message": "192.168.1.33 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:19:14"
+    },
+    {
+        "id": 133,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:20:16"
+    },
+    {
+        "id": 134,
+        "title": "Device Left",
+        "message": "192.168.1.33 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-20 16:20:17"
+    },
+    {
+        "id": 135,
+        "title": "Unknown Device",
+        "message": "192.168.1.37 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-20 16:21:19"
     }
 ]
