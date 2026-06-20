@@ -1,38 +1,78 @@
 import json
 from datetime import datetime
 
-NOTIFICATION_FILE = "database/notifications.json"
+NOTIFICATIONS_FILE = "database/notifications.json"
 
 
-def add_notification(title, message, severity):
-
-    notification = {
-        "title": title,
-        "message": message,
-        "severity": severity,
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    }
+def load_notifications():
 
     try:
-        with open(NOTIFICATION_FILE, "r") as file:
-            notifications = json.load(file)
-
-    except FileNotFoundError:
-        notifications = []
-
-    notifications.append(notification)
-
-    with open(NOTIFICATION_FILE, "w") as file:
-        json.dump(notifications, file, indent=4)
-
-    return notification
-
-
-def get_notifications():
-
-    try:
-        with open(NOTIFICATION_FILE, "r") as file:
+        with open(NOTIFICATIONS_FILE, "r") as file:
             return json.load(file)
 
     except FileNotFoundError:
         return []
+
+
+def save_notifications(notifications):
+
+    with open(NOTIFICATIONS_FILE, "w") as file:
+        json.dump(notifications, file, indent=4)
+
+
+def add_notification(title, message, severity):
+
+    notifications = load_notifications()
+
+    notification = {
+        "id": len(notifications) + 1,
+        "title": title,
+        "message": message,
+        "severity": severity,
+        "read": False,
+        "timestamp": datetime.now().strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
+    }
+
+    notifications.append(notification)
+
+    save_notifications(notifications)
+
+    return notification
+
+
+def mark_as_read(notification_id):
+
+    notifications = load_notifications()
+
+    for notification in notifications:
+
+        if notification.get("id") == notification_id:
+
+            notification["read"] = True
+
+            save_notifications(notifications)
+
+            return notification
+
+    return None
+
+
+def clear_notifications():
+
+    save_notifications([])
+
+
+def unread_count():
+
+    notifications = load_notifications()
+
+    count = 0
+
+    for notification in notifications:
+
+        if not notification.get("read", False):
+            count += 1
+
+    return count

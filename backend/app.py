@@ -17,7 +17,24 @@ from scanner.device_trust import calculate_trust_scores
 from scanner.score_history import load_security_history
 from scanner.activity_analytics import get_activity_analytics
 from scanner.device_profiles import get_device_profiles
-from scanner.notification_engine import get_notifications
+from scanner.notification_engine import (
+    load_notifications,
+    mark_as_read,
+    clear_notifications,
+    unread_count
+)
+from scanner.device_blocker import (
+    block_device,
+    unblock_device,
+    load_blocked_devices
+)
+from scanner.restriction_engine import (
+    restrict_device,
+    remove_restriction
+)
+from reports.weekly_report import generate_weekly_report
+from scanner.action_logger import load_actions
+from scanner.action_stats import get_action_stats
 
 app = Flask(__name__)
 
@@ -305,7 +322,131 @@ def device_profiles():
 def notifications():
 
     return jsonify(
-        get_notifications()
+        load_notifications()
+    )
+
+
+@app.route("/notifications/unread-count")
+def notifications_unread():
+
+    return jsonify({
+        "unread":
+        unread_count()
+    })
+
+
+@app.route(
+    "/notifications/read",
+    methods=["POST"]
+)
+def read_notification():
+
+    data = request.json
+
+    notification = mark_as_read(
+        data["id"]
+    )
+
+    if not notification:
+
+        return jsonify({
+            "error":
+            "Notification not found"
+        }), 404
+
+    return jsonify({
+        "message":
+        "Notification marked read",
+        "notification":
+        notification
+    })
+
+@app.route(
+    "/notifications/clear",
+    methods=["POST"]
+)
+def clear_all_notifications():
+
+    clear_notifications()
+
+    return jsonify({
+        "message":
+        "Notifications cleared"
+    })
+
+@app.route("/blocked-devices")
+def blocked_devices():
+
+    return jsonify(
+        load_blocked_devices()
+    )
+
+@app.route("/block-device", methods=["POST"])
+def api_block_device():
+
+    data = request.json
+
+    result = block_device(
+        data["mac"]
+    )
+
+    return jsonify(result)
+
+@app.route("/unblock-device", methods=["POST"])
+def api_unblock_device():
+
+    data = request.json
+
+    result = unblock_device(
+        data["mac"]
+    )
+
+    return jsonify(result)
+
+@app.route("/restrict-device", methods=["POST"])
+def api_restrict_device():
+
+    data = request.json
+
+    result = restrict_device(
+        data["mac"],
+        data.get("reason", "Restricted by administrator")
+    )
+
+    return jsonify(result)
+
+
+@app.route("/unrestrict-device", methods=["POST"])
+def api_unrestrict_device():
+
+    data = request.json
+
+    result = remove_restriction(
+        data["mac"]
+    )
+
+    return jsonify(result)
+
+
+@app.route("/report")
+def weekly_report():
+
+    return jsonify(
+        generate_weekly_report()
+    )
+
+@app.route("/actions")
+def get_actions():
+
+    actions = load_actions()
+
+    return jsonify(actions)
+
+@app.route("/action-stats")
+def action_stats():
+
+    return jsonify(
+        get_action_stats()
     )
 
 if __name__ == "__main__":

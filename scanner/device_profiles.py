@@ -1,6 +1,8 @@
 import json
 
 from scanner.device_notes import load_notes
+from scanner.device_blocker import load_blocked_devices
+from scanner.restriction_engine import load_restricted_devices
 
 
 def get_device_profiles():
@@ -15,6 +17,10 @@ def get_device_profiles():
         usage_data = json.load(file)
 
     notes = load_notes()
+
+    blocked_devices = load_blocked_devices()
+
+    restricted_devices = load_restricted_devices()
 
     known_lookup = {}
 
@@ -32,6 +38,13 @@ def get_device_profiles():
 
         known = known_lookup.get(mac)
 
+        is_blocked = mac in blocked_devices
+
+        is_restricted = any(
+            restricted["mac"] == mac
+            for restricted in restricted_devices
+        )
+
         if known:
 
             profile = {
@@ -39,15 +52,21 @@ def get_device_profiles():
                 "owner": known["owner"],
                 "ip": device["ip"],
                 "mac": device["mac"],
-                "daily_limit": known["daily_limit_minutes"],
-                "curfew_start": known["curfew_start"],
-                "curfew_end": known["curfew_end"],
+                "daily_limit":
+                    known["daily_limit_minutes"],
+                "curfew_start":
+                    known["curfew_start"],
+                "curfew_end":
+                    known["curfew_end"],
                 "minutes_online":
                     usage_data.get(mac, {})
                     .get("minutes_online", 0),
                 "note":
                     notes.get(mac, ""),
-                "status": "known"
+                "status": "known",
+                "online": True,
+                "blocked": is_blocked,
+                "restricted": is_restricted
             }
 
         else:
@@ -65,7 +84,10 @@ def get_device_profiles():
                     .get("minutes_online", 0),
                 "note":
                     notes.get(mac, ""),
-                "status": "unknown"
+                "status": "unknown",
+                "online": True,
+                "blocked": is_blocked,
+                "restricted": is_restricted
             }
 
         profiles.append(profile)

@@ -78,6 +78,11 @@ def monitor_network():
         current_devices = scan_network(NETWORK)
 
         update_usage(current_devices)
+        from scanner.restriction_checker import (
+            check_expired_restrictions
+        )
+
+        check_expired_restrictions()
 
         known_macs = load_known_macs()
 

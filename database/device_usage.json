@@ -1,15 +1,15 @@
 {
     "4c:ae:1c:35:55:62": {
-        "minutes_online": 822,
-        "last_seen": "2026-06-18 19:47:32"
+        "minutes_online": 1031,
+        "last_seen": "2026-06-20 15:10:36"
     },
     "80:84:89:9e:de:5f": {
         "minutes_online": 151,
         "last_seen": "2026-06-18 15:06:10"
     },
     "18:d4:3d:75:e3:cc": {
-        "minutes_online": 304,
-        "last_seen": "2026-06-18 19:47:32"
+        "minutes_online": 394,
+        "last_seen": "2026-06-20 15:10:36"
     },
     "8e:9d:a2:fe:43:db": {
         "minutes_online": 1,
@@ -28,23 +28,27 @@
         "last_seen": "2026-06-17 15:29:01"
     },
     "a2:30:40:a7:22:94": {
-        "minutes_online": 133,
-        "last_seen": "2026-06-18 18:21:36"
+        "minutes_online": 189,
+        "last_seen": "2026-06-20 15:07:29"
     },
     "6e:31:fb:43:13:ae": {
-        "minutes_online": 241,
-        "last_seen": "2026-06-18 19:47:32"
+        "minutes_online": 318,
+        "last_seen": "2026-06-20 15:10:36"
     },
     "b6:b8:62:81:63:9e": {
-        "minutes_online": 66,
-        "last_seen": "2026-06-18 16:03:09"
+        "minutes_online": 73,
+        "last_seen": "2026-06-19 17:45:17"
     },
     "16:17:a4:25:0b:4a": {
         "minutes_online": 19,
         "last_seen": "2026-06-17 22:30:40"
     },
     "8e:57:c9:63:4a:ee": {
-        "minutes_online": 1,
-        "last_seen": "2026-06-18 11:22:08"
+        "minutes_online": 2,
+        "last_seen": "2026-06-18 21:38:39"
+    },
+    "12:c0:da:bc:7d:37": {
+        "minutes_online": 28,
+        "last_seen": "2026-06-20 15:10:36"
     }
 }

@@ -1,9 +1,15 @@
-from scanner.notification_engine import add_notification
-
-notification = add_notification(
-    "Unknown Device",
-    "A new device joined the network",
-    "high"
+from scanner.notification_engine import (
+    add_notification,
+    unread_count
 )
 
-print(notification)
+add_notification(
+    "Test Notification",
+    "Notification system working",
+    "low"
+)
+
+print(
+    "\nUnread:",
+    unread_count()
+)
