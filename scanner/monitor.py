@@ -5,6 +5,11 @@ from datetime import datetime
 from network_scan import scan_network
 from usage_tracker import update_usage
 from scanner.notification_engine import add_notification
+from database.device_model import save_device
+from scanner.scanner_config import (
+    load_scanner_config
+)
+from database.event_model import save_event
 
 NETWORK = "192.168.1.0/24"
 SCAN_INTERVAL = 60
@@ -41,28 +46,31 @@ def load_known_macs():
         return set()
 
 
-def log_event(event_type, device):
+def log_event(
+    event_type,
+    device,
+    user_id,
+    scanner_id
+):
 
     event = {
+        "user_id": user_id,
+        "scanner_id": scanner_id,
         "event": event_type,
         "ip": device["ip"],
         "mac": device["mac"],
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        "timestamp": datetime.now().strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
     }
 
-    try:
-        with open("database/event_log.json", "r") as file:
-            events = json.load(file)
+    save_event(event)
 
-    except FileNotFoundError:
-        events = []
+    print(
+        f"\n[{event['timestamp']}] "
+        f"{event_type.upper()}"
+    )
 
-    events.append(event)
-
-    with open("database/event_log.json", "w") as file:
-        json.dump(events, file, indent=4)
-
-    print(f"\n[{event['timestamp']}] {event_type.upper()}")
     print(f"IP : {device['ip']}")
     print(f"MAC: {device['mac']}")
 
@@ -70,6 +78,10 @@ def log_event(event_type, device):
 def monitor_network():
 
     previous_devices = load_previous_devices()
+    config = load_scanner_config()
+
+    user_id = config["user_id"]
+    scanner_id = config["scanner_id"]
 
     while True:
 
@@ -78,6 +90,31 @@ def monitor_network():
         current_devices = scan_network(NETWORK)
 
         update_usage(current_devices)
+
+        for device in current_devices:
+
+            mongo_device = {
+                "user_id": user_id,
+                "scanner_id": scanner_id,
+                "name": "Unknown Device",
+                "owner": "Unknown",
+                "ip": device["ip"],
+                "mac": device["mac"],
+                "online": True,
+                "last_seen": datetime.now().strftime(
+                "%Y-%m-%d %H:%M:%S"
+                )
+            }
+            print("DEBUG:", mongo_device)
+            try:
+                result = save_device(mongo_device)
+
+                print(
+                    f"{device['ip']} -> {result} -> {mongo_device['last_seen']}"
+                )
+            except Exception as e:
+                print(f"Database error: {e}")
+
         from scanner.restriction_checker import (
             check_expired_restrictions
         )
@@ -101,7 +138,12 @@ def monitor_network():
 
             if device["mac"] not in previous_macs:
 
-                log_event("device_joined", device)
+                log_event(
+                    "device_joined",
+                    device,
+                    user_id,
+                    scanner_id
+                )
 
                 if device["mac"].lower() in known_macs:
 
@@ -124,8 +166,12 @@ def monitor_network():
 
             if device["mac"] not in current_macs:
 
-                log_event("device_left", device)
-
+                log_event(
+                    "device_left",
+                    device,
+                    user_id,
+                    scanner_id
+                )
                 add_notification(
                     "Device Left",
                     f"{device['ip']} left network",
@@ -140,6 +186,7 @@ def monitor_network():
 
         time.sleep(SCAN_INTERVAL)
 
+        
 
 if __name__ == "__main__":
     monitor_network()

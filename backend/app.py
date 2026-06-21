@@ -35,6 +35,23 @@ from scanner.restriction_engine import (
 from reports.weekly_report import generate_weekly_report
 from scanner.action_logger import load_actions
 from scanner.action_stats import get_action_stats
+from scanner.auth import (
+    register_user,
+    login_user
+)
+from scanner.jwt_handler import generate_token
+from scanner.auth_middleware import login_required
+from scanner.pairing import (
+    generate_pairing_code,
+    verify_pairing_code
+)
+from flask import g
+from scanner.scanner_manager import (
+    register_scanner
+)
+from scanner.scanner_config import (
+    save_scanner_config
+)
 
 app = Flask(__name__)
 
@@ -312,6 +329,7 @@ def activity():
     )
 
 @app.route("/device-profiles")
+@login_required
 def device_profiles():
 
     return jsonify(
@@ -448,6 +466,114 @@ def action_stats():
     return jsonify(
         get_action_stats()
     )
+
+@app.route("/register", methods=["POST"])
+def register():
+
+    data = request.json
+
+    user = register_user(
+        data["name"],
+        data["email"],
+        data["password"]
+    )
+
+    if not user:
+
+        return jsonify({
+            "error": "Email already exists"
+        }), 400
+
+    return jsonify({
+        "message": "User registered",
+        "user": user
+    })
+
+@app.route("/login", methods=["POST"])
+def login():
+
+    data = request.json
+
+    user = login_user(
+        data["email"],
+        data["password"]
+    )
+
+    if not user:
+
+        return jsonify({
+            "error": "Invalid credentials"
+        }), 401
+
+    token = generate_token(user)
+
+    return jsonify({
+        "message": "Login successful",
+        "token": token,
+        "user": user
+    })
+
+from flask import g
+
+@app.route("/me")
+@login_required
+def me():
+
+    return jsonify({
+        "user_id": g.user["user_id"],
+        "email": g.user["email"]
+    })
+
+@app.route(
+    "/generate-pairing-code",
+    methods=["POST"]
+)
+@login_required
+def create_pairing_code():
+
+    code = generate_pairing_code(
+        g.user["user_id"]
+    )
+
+    return jsonify({
+        "pairing_code": code
+    })
+
+@app.route(
+    "/pair-scanner",
+    methods=["POST"]
+)
+def pair_scanner():
+
+    data = request.json
+
+    user_id = verify_pairing_code(
+        data["code"]
+    )
+
+    if not user_id:
+
+        return jsonify({
+            "error":
+            "Invalid pairing code"
+        }), 400
+
+    scanner = register_scanner(
+        user_id,
+        data["hostname"]
+    )
+
+    save_scanner_config(
+        user_id,
+        scanner["_id"]
+    )
+
+    return jsonify({
+        "message":
+        "Scanner paired",
+        "scanner":
+        scanner
+    })
 
 if __name__ == "__main__":
     app.run(debug=True)

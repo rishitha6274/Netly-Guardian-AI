@@ -1,5 +1,11 @@
 import json
 from datetime import datetime
+from database.notification_model import (
+    save_notification
+)
+from scanner.scanner_config import (
+    load_scanner_config
+)
 
 NOTIFICATIONS_FILE = "database/notifications.json"
 
@@ -34,6 +40,21 @@ def add_notification(title, message, severity):
             "%Y-%m-%d %H:%M:%S"
         )
     }
+    config = load_scanner_config()
+
+    mongo_notification = {
+        "user_id": config["user_id"],
+        "scanner_id": config["scanner_id"],
+        "title": title,
+        "message": message,
+        "severity": severity,
+        "read": False,
+        "timestamp": notification["timestamp"]
+    }
+
+    save_notification(
+    mongo_notification
+    )
 
     notifications.append(notification)
 

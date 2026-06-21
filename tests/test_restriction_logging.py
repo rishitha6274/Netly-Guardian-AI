@@ -12,4 +12,4 @@ remove_restriction(
     "AA:BB:CC:DD:EE:FF"
 )
 
-print("Restriction logging test complete")
+print("Restriction logging test complete") 
