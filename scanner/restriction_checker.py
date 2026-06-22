@@ -1,26 +1,17 @@
 from datetime import datetime
-import json
 
 from scanner.restriction_engine import (
     load_restricted_devices,
     remove_restriction
 )
+from scanner.device_registry import get_all_known_devices
 
 
 def check_expired_restrictions():
 
     removed = []
 
-    try:
-        with open(
-            "database/known_devices.json",
-            "r"
-        ) as file:
-
-            known_devices = json.load(file)
-
-    except FileNotFoundError:
-        return removed
+    known_devices = get_all_known_devices()
 
     restricted = load_restricted_devices()
 

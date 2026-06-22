@@ -3,6 +3,7 @@ import json
 from scanner.device_notes import load_notes
 from scanner.device_blocker import load_blocked_devices
 from scanner.restriction_engine import load_restricted_devices
+from scanner.device_registry import get_all_known_devices
 
 
 def get_device_profiles():
@@ -10,8 +11,7 @@ def get_device_profiles():
     with open("database/devices.json", "r") as file:
         devices = json.load(file)
 
-    with open("database/known_devices.json", "r") as file:
-        known_devices = json.load(file)
+    known_devices = get_all_known_devices()
 
     with open("database/device_usage.json", "r") as file:
         usage_data = json.load(file)

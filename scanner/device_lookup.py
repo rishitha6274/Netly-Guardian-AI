@@ -1,10 +1,9 @@
-import json
+from scanner.device_registry import get_all_known_devices
 
 
 def get_mac_by_name(device_name):
 
-    with open("database/known_devices.json", "r") as file:
-        devices = json.load(file)
+    devices = get_all_known_devices()
 
     for device in devices:
 

@@ -10,6 +10,7 @@ from scanner.scanner_config import (
     load_scanner_config
 )
 from database.event_model import save_event
+from scanner.device_registry import get_all_known_devices
 
 NETWORK = "192.168.1.0/24"
 SCAN_INTERVAL = 60
@@ -33,17 +34,12 @@ def save_current_devices(devices):
 
 def load_known_macs():
 
-    try:
-        with open("database/known_devices.json", "r") as file:
-            known_devices = json.load(file)
+    known_devices = get_all_known_devices()
 
-        return {
-            device["mac"].lower()
-            for device in known_devices
-        }
-
-    except FileNotFoundError:
-        return set()
+    return {
+        device["mac"].lower()
+        for device in known_devices
+    }
 
 
 def log_event(

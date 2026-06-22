@@ -1,10 +1,11 @@
 import json
 
+from scanner.device_registry import get_all_known_devices
+
 
 def check_limits():
 
-    with open("database/known_devices.json", "r") as file:
-        known_devices = json.load(file)
+    known_devices = get_all_known_devices()
 
     with open("database/device_usage.json", "r") as file:
         usage_data = json.load(file)

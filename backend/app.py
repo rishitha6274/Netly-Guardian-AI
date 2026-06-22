@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
 import json
 from scanner.limit_checker import check_limits
+from scanner.device_registry import get_all_known_devices
 from flask import request
 from scanner.device_registry import (
     register_device,
@@ -54,6 +54,8 @@ from scanner.scanner_config import (
     save_scanner_config
 )
 from database.mongodb import devices_collection
+from database.mongodb import events_collection
+from scanner.email_service import send_email
 
 
 app = Flask(__name__)
@@ -84,8 +86,13 @@ def get_devices():
 @app.route("/events")
 def get_events():
 
-    with open("database/event_log.json", "r") as file:
-        events = json.load(file)
+    events = []
+
+    for event in events_collection.find():
+
+        event["_id"] = str(event["_id"])
+
+        events.append(event)
 
     return jsonify(events)
 
@@ -96,8 +103,7 @@ def device_summary():
     with open("database/devices.json", "r") as file:
         devices = json.load(file)
 
-    with open("database/known_devices.json", "r") as file:
-        known_devices = json.load(file)
+    known_devices = get_all_known_devices()
 
     with open("database/mac_vendors.json", "r") as file:
         vendor_db = json.load(file)
@@ -151,8 +157,7 @@ def dashboard():
     with open("database/devices.json", "r") as file:
         devices = json.load(file)
 
-    with open("database/known_devices.json", "r") as file:
-        known_devices = json.load(file)
+    known_devices = get_all_known_devices()
 
     with open("database/event_log.json", "r") as file:
         events = json.load(file)
@@ -593,6 +598,19 @@ def debug_mongo():
         "starts_with_srv": uri.startswith("mongodb+srv://"),
         "contains_cluster": "cluster0.xsvfrmm.mongodb.net" in uri,
         "length": len(uri)
+    }
+
+@app.route("/test-email")
+def test_email():
+
+    send_email(
+        subject="Netly Test Email",
+        body="Congratulations! Netly email notifications are working.",
+        recipient="rishithareddie.lattupally135@gmail.com"
+    )
+
+    return {
+        "message": "Email sent"
     }
 
 if __name__ == "__main__":

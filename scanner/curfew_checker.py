@@ -1,13 +1,13 @@
-import json
 from datetime import datetime
+
+from scanner.device_registry import get_all_known_devices
 
 
 def check_curfews():
 
     alerts = []
 
-    with open("database/known_devices.json", "r") as file:
-        devices = json.load(file)
+    devices = get_all_known_devices()
 
     current_time = datetime.now().strftime("%H:%M")
 

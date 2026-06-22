@@ -1,9 +1,9 @@
 import json
+from scanner.device_registry import get_all_known_devices
 
 
 def load_known_devices():
-    with open("database/known_devices.json", "r") as file:
-        return json.load(file)
+    return get_all_known_devices()
 
 
 def load_vendor_database():

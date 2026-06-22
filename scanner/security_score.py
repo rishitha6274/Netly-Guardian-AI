@@ -3,6 +3,7 @@ import json
 from scanner.curfew_checker import check_curfews
 from scanner.limit_checker import check_limits
 from scanner.score_history import save_security_score
+from scanner.device_registry import get_all_known_devices
 
 def calculate_security_score():
 
@@ -12,9 +13,8 @@ def calculate_security_score():
     with open("database/devices.json", "r") as file:
         devices = json.load(file)
 
-    # Load trusted devices
-    with open("database/known_devices.json", "r") as file:
-        known_devices = json.load(file)
+    # Load trusted devices from MongoDB
+    known_devices = get_all_known_devices()
 
     # Build set of trusted MAC addresses
     known_macs = {
