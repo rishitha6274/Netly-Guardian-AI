@@ -11,6 +11,8 @@ from scanner.scanner_config import (
 )
 from database.event_model import save_event
 from scanner.device_registry import get_all_known_devices
+from scanner.email_service import send_email
+from scanner.auth import get_user_email
 
 NETWORK = "192.168.1.0/24"
 SCAN_INTERVAL = 60
@@ -156,6 +158,20 @@ def monitor_network():
                         f"{device['ip']} joined network",
                         "high"
                     )
+                    try:
+                        email = get_user_email(user_id)
+                        if email:
+                            send_email(
+                                subject="🚨 Netly Security Alert",
+                                body=(
+                                    f"Unknown device detected.\n\n"
+                                    f"IP: {device['ip']}\n"
+                                    f"MAC: {device['mac']}"
+                                ),
+                                recipient="netlygaurdian@gmail.com"
+                            )
+                    except Exception as e:
+                        print(f"Error sending email: {e}")
 
         # Devices left
         for device in previous_devices:

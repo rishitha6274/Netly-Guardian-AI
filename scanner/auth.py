@@ -4,6 +4,7 @@ from datetime import datetime
 from database.mongodb import users_collection
 
 
+
 def register_user(name, email, password):
 
     existing_user = users_collection.find_one({
@@ -58,3 +59,19 @@ def login_user(email, password):
         "name": user["name"],
         "email": user["email"]
     }
+
+from bson import ObjectId
+
+
+
+def get_user_email(user_id):
+
+    user = users_collection.find_one({
+        "_id": ObjectId(user_id)
+    })
+
+    if not user:
+
+        return None
+
+    return user["email"]
