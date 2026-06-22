@@ -614,15 +614,23 @@ def debug_email():
 @app.route("/test-email")
 def test_email():
 
-    send_email(
-        subject="Netly Test Email",
-        body="Congratulations! Netly email notifications are working.",
-        recipient="rishithareddie.lattupally135@gmail.com"
-    )
+    try:
 
-    return {
-        "message": "Email sent"
-    }
+        send_email(
+            subject="Netly Test Email",
+            body="Test",
+            recipient="YOUR_EMAIL@gmail.com"
+        )
+
+        return {
+            "message": "Email sent"
+        }
+
+    except Exception as e:
+
+        return {
+            "error": str(e)
+        }, 500
 
 if __name__ == "__main__":
     app.run(debug=True)
