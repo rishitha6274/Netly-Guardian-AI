@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import json
 from scanner.limit_checker import check_limits
 from flask import request
@@ -53,8 +54,9 @@ from scanner.scanner_config import (
     save_scanner_config
 )
 
-app = Flask(__name__)
 
+app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def home():
