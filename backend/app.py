@@ -601,6 +601,16 @@ def debug_mongo():
         "length": len(uri)
     }
 
+@app.route("/debug-email")
+def debug_email():
+
+    import os
+
+    return {
+        "email_exists": bool(os.getenv("EMAIL_ADDRESS")),
+        "password_exists": bool(os.getenv("EMAIL_APP_PASSWORD"))
+    }
+
 @app.route("/test-email")
 def test_email():
 
