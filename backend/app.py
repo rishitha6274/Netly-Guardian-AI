@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import json
 from scanner.limit_checker import check_limits
 from scanner.device_registry import get_all_known_devices
