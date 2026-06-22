@@ -611,7 +611,7 @@ def debug_email():
         "password_exists": bool(os.getenv("EMAIL_APP_PASSWORD"))
     }
 
-@@app.route("/test-email")
+@app.route("/test-email")
 def test_email():
 
     result = send_email(
