@@ -575,5 +575,17 @@ def pair_scanner():
         scanner
     })
 
+import os
+
+@app.route("/debug-mongo")
+def debug_mongo():
+    uri = os.getenv("MONGO_URI", "")
+
+    return {
+        "starts_with_srv": uri.startswith("mongodb+srv://"),
+        "contains_cluster": "cluster0.xsvfrmm.mongodb.net" in uri,
+        "length": len(uri)
+    }
+
 if __name__ == "__main__":
     app.run(debug=True)
