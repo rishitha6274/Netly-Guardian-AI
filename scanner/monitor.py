@@ -162,8 +162,6 @@ def monitor_network():
 
                         email = get_user_email(user_id)
 
-                        print("DEBUG USER ID:", user_id)
-                        print("DEBUG EMAIL:", email)
 
                         if email:
 
