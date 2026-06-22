@@ -53,6 +53,7 @@ from scanner.scanner_manager import (
 from scanner.scanner_config import (
     save_scanner_config
 )
+from database.mongodb import devices_collection
 
 
 app = Flask(__name__)
@@ -69,8 +70,13 @@ def home():
 @app.route("/devices")
 def get_devices():
 
-    with open("database/devices.json", "r") as file:
-        devices = json.load(file)
+    devices = []
+
+    for device in devices_collection.find():
+
+        device["_id"] = str(device["_id"])
+
+        devices.append(device)
 
     return jsonify(devices)
 
