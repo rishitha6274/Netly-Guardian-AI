@@ -160,6 +160,7 @@ def monitor_network():
                     )
                     try:
                         email = get_user_email(user_id)
+                        print("FOUND USER EMAIL:", email)
                         if email:
                             send_email(
                                 subject="🚨 Netly Security Alert",

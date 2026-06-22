@@ -4974,5 +4974,157 @@
         "severity": "high",
         "read": false,
         "timestamp": "2026-06-22 22:14:56"
+    },
+    {
+        "id": 623,
+        "title": "Unknown Device",
+        "message": "192.168.1.37 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:17:11"
+    },
+    {
+        "id": 624,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:17:12"
+    },
+    {
+        "id": 625,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:17:12"
+    },
+    {
+        "id": 626,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:18:14"
+    },
+    {
+        "id": 627,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:18:15"
+    },
+    {
+        "id": 628,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:19:17"
+    },
+    {
+        "id": 629,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:20:20"
+    },
+    {
+        "id": 630,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:23:27"
+    },
+    {
+        "id": 631,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:24:30"
+    },
+    {
+        "id": 632,
+        "title": "Device Left",
+        "message": "192.168.1.37 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:24:30"
+    },
+    {
+        "id": 633,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:25:32"
+    },
+    {
+        "id": 634,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:25:32"
+    },
+    {
+        "id": 635,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:26:35"
+    },
+    {
+        "id": 636,
+        "title": "Known Device Joined",
+        "message": "192.168.1.1 joined network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:27:13"
+    },
+    {
+        "id": 637,
+        "title": "Unknown Device",
+        "message": "192.168.1.35 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:27:13"
+    },
+    {
+        "id": 638,
+        "title": "Unknown Device",
+        "message": "192.168.1.37 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:28:16"
+    },
+    {
+        "id": 639,
+        "title": "Device Left",
+        "message": "192.168.1.35 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:28:16"
+    },
+    {
+        "id": 640,
+        "title": "Device Left",
+        "message": "192.168.1.37 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-22 22:31:23"
+    },
+    {
+        "id": 641,
+        "title": "Unknown Device",
+        "message": "192.168.1.37 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-22 22:32:26"
     }
 ]
