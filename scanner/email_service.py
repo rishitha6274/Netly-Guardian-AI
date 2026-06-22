@@ -1,38 +1,33 @@
 import os
 import smtplib
 
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-
-
 def send_email(subject, body, recipient):
+
+    print("STEP 1")
 
     sender = os.getenv("EMAIL_ADDRESS")
     password = os.getenv("EMAIL_APP_PASSWORD")
 
-    msg = MIMEMultipart()
-
-    msg["From"] = sender
-    msg["To"] = recipient
-    msg["Subject"] = subject
-
-    msg.attach(
-        MIMEText(body, "plain")
-    )
+    print("STEP 2")
 
     server = smtplib.SMTP(
         "smtp.gmail.com",
-        587
+        587,
+        timeout=10
     )
 
+    print("STEP 3")
+
     server.starttls()
+
+    print("STEP 4")
 
     server.login(
         sender,
         password
     )
 
-    server.send_message(msg)
+    print("STEP 5")
 
     server.quit()
 
