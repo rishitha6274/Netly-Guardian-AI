@@ -611,26 +611,16 @@ def debug_email():
         "password_exists": bool(os.getenv("EMAIL_APP_PASSWORD"))
     }
 
-@app.route("/test-email")
+@@app.route("/test-email")
 def test_email():
 
-    try:
+    result = send_email(
+        subject="Netly Test Email",
+        body="Congratulations! Netly email notifications are working.",
+        recipient="rishithareddie.lattupally135@gmail.com"
+    )
 
-        send_email(
-            subject="Netly Test Email",
-            body="Test",
-            recipient="YOUR_EMAIL@gmail.com"
-        )
-
-        return {
-            "message": "Email sent"
-        }
-
-    except Exception as e:
-
-        return {
-            "error": str(e)
-        }, 500
+    return result
 
 if __name__ == "__main__":
     app.run(debug=True)

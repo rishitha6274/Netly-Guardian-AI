@@ -1,34 +1,23 @@
 import os
-import smtplib
+import requests
+
 
 def send_email(subject, body, recipient):
 
-    print("STEP 1")
+    api_key = os.getenv("RESEND_API_KEY")
 
-    sender = os.getenv("EMAIL_ADDRESS")
-    password = os.getenv("EMAIL_APP_PASSWORD")
-
-    print("STEP 2")
-
-    server = smtplib.SMTP(
-        "smtp.gmail.com",
-        587,
-        timeout=10
+    response = requests.post(
+        "https://api.resend.com/emails",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        },
+        json={
+            "from": "onboarding@resend.dev",
+            "to": recipient,
+            "subject": subject,
+            "text": body
+        }
     )
 
-    print("STEP 3")
-
-    server.starttls()
-
-    print("STEP 4")
-
-    server.login(
-        sender,
-        password
-    )
-
-    print("STEP 5")
-
-    server.quit()
-
-    return True
+    return response.json()
