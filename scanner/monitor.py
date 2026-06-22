@@ -161,8 +161,8 @@ def monitor_network():
                     try:
 
                         email = get_user_email(user_id)
-
-
+                        # TODO: After Resend domain verification
+                        # recipient=email
                         if email:
 
                             result = send_email(
