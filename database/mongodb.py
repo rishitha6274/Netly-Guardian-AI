@@ -6,7 +6,17 @@ load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")
 
-client = MongoClient(MONGO_URI)
+client = MongoClient(
+    MONGO_URI,
+    serverSelectionTimeoutMS=5000
+)
+
+try:
+    client.admin.command("ping")
+    print("✅ Connected to MongoDB Atlas")
+except Exception as e:
+    print("❌ MongoDB Connection Failed")
+    print(e)
 
 db = client["netly"]
 
@@ -16,5 +26,3 @@ notifications_collection = db["notifications"]
 events_collection = db["events"]
 pairing_codes_collection = db["pairing_codes"]
 scanners_collection = db["scanners"]
-
-print("✅ Connected to MongoDB Atlas")
