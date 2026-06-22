@@ -159,10 +159,15 @@ def monitor_network():
                         "high"
                     )
                     try:
+
                         email = get_user_email(user_id)
-                        print("FOUND USER EMAIL:", email)
+
+                        print("DEBUG USER ID:", user_id)
+                        print("DEBUG EMAIL:", email)
+
                         if email:
-                            send_email(
+
+                            result = send_email(
                                 subject="🚨 Netly Security Alert",
                                 body=(
                                     f"Unknown device detected.\n\n"
@@ -171,8 +176,15 @@ def monitor_network():
                                 ),
                                 recipient="netlygaurdian@gmail.com"
                             )
+
+                            print("EMAIL RESULT:", result)
+
+                        else:
+                            print("NO EMAIL FOUND FOR USER")
+
                     except Exception as e:
-                        print(f"Error sending email: {e}")
+
+                        print("EMAIL ERROR:", e)
 
         # Devices left
         for device in previous_devices:
