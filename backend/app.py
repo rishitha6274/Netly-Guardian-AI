@@ -617,7 +617,7 @@ def test_email():
     result = send_email(
         subject="Netly Test Email",
         body="Congratulations! Netly email notifications are working.",
-        recipient="rishithareddie.lattupally135@gmail.com"
+        recipient="netlygaurdian@gmail.com"
     )
 
     return result
