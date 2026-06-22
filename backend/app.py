@@ -8,6 +8,50 @@ from scanner.device_registry import (
     set_limit
 )
 from scanner.device_registry import set_curfew
+from scanner.alert_engine import generate_security_alerts
+from scanner.curfew_checker import check_curfews
+from scanner.device_notes import add_note
+from scanner.device_notes import load_notes
+from scanner.security_score import calculate_security_score
+from scanner.device_trust import calculate_trust_scores
+from scanner.score_history import load_security_history
+from scanner.activity_analytics import get_activity_analytics
+from scanner.device_profiles import get_device_profiles
+from scanner.notification_engine import (
+    load_notifications,
+    mark_as_read,
+    clear_notifications,
+    unread_count
+)
+from scanner.device_blocker import (
+    block_device,
+    unblock_device,
+    load_blocked_devices
+)
+from scanner.restriction_engine import (
+    restrict_device,
+    remove_restriction
+)
+from reports.weekly_report import generate_weekly_report
+from scanner.action_logger import load_actions
+from scanner.action_stats import get_action_stats
+from scanner.auth import (
+    register_user,
+    login_user
+)
+from scanner.jwt_handler import generate_token
+from scanner.auth_middleware import login_required
+from scanner.pairing import (
+    generate_pairing_code,
+    verify_pairing_code
+)
+from flask import g
+from scanner.scanner_manager import (
+    register_scanner
+)
+from scanner.scanner_config import (
+    save_scanner_config
+)
 
 app = Flask(__name__)
 
@@ -69,10 +113,17 @@ def device_summary():
         vendor = vendor_db.get(prefix, "Unknown Vendor")
 
         if mac in known_macs:
-            name = known_macs[mac]
+
+            name = known_macs[mac]["name"]
+            owner = known_macs[mac]["owner"]
+
             status = "known"
+
         else:
+
             name = "Unknown Device"
+            owner = "Unknown"
+
             status = "unknown"
 
         summary.append({
@@ -80,6 +131,7 @@ def device_summary():
             "ip": device["ip"],
             "mac": device["mac"],
             "vendor": vendor,
+            "owner": owner,
             "status": status
         })
 
@@ -209,6 +261,318 @@ def update_curfew():
     return jsonify({
         "message": "Curfew updated",
         "device": device
+    })
+
+@app.route("/security-alerts")
+def security_alerts():
+
+    alerts = generate_security_alerts()
+
+    return jsonify(alerts)
+
+@app.route("/curfew-alerts")
+def curfew_alerts():
+
+    alerts = check_curfews()
+
+    return jsonify(alerts)
+
+@app.route("/add-note", methods=["POST"])
+def save_device_note():
+
+    data = request.json
+
+    result = add_note(
+        data["mac"],
+        data["note"]
+    )
+
+    return jsonify({
+        "message": "Note saved",
+        "data": result
+    })
+
+@app.route("/notes")
+def get_notes():
+
+    notes = load_notes()
+
+    return jsonify(notes)
+
+
+@app.route("/security-score")
+def security_score():
+
+    result = calculate_security_score()
+
+    return jsonify(result)
+
+@app.route("/trust-scores")
+def trust_scores():
+
+    return jsonify(
+        calculate_trust_scores()
+    )
+
+@app.route("/security-history")
+def security_history():
+
+    return jsonify(
+        load_security_history()
+    )
+
+@app.route("/activity")
+def activity():
+
+    return jsonify(
+        get_activity_analytics()
+    )
+
+@app.route("/device-profiles")
+@login_required
+def device_profiles():
+
+    return jsonify(
+        get_device_profiles()
+    )
+
+@app.route("/notifications")
+def notifications():
+
+    return jsonify(
+        load_notifications()
+    )
+
+
+@app.route("/notifications/unread-count")
+def notifications_unread():
+
+    return jsonify({
+        "unread":
+        unread_count()
+    })
+
+
+@app.route(
+    "/notifications/read",
+    methods=["POST"]
+)
+def read_notification():
+
+    data = request.json
+
+    notification = mark_as_read(
+        data["id"]
+    )
+
+    if not notification:
+
+        return jsonify({
+            "error":
+            "Notification not found"
+        }), 404
+
+    return jsonify({
+        "message":
+        "Notification marked read",
+        "notification":
+        notification
+    })
+
+@app.route(
+    "/notifications/clear",
+    methods=["POST"]
+)
+def clear_all_notifications():
+
+    clear_notifications()
+
+    return jsonify({
+        "message":
+        "Notifications cleared"
+    })
+
+@app.route("/blocked-devices")
+def blocked_devices():
+
+    return jsonify(
+        load_blocked_devices()
+    )
+
+@app.route("/block-device", methods=["POST"])
+def api_block_device():
+
+    data = request.json
+
+    result = block_device(
+        data["mac"]
+    )
+
+    return jsonify(result)
+
+@app.route("/unblock-device", methods=["POST"])
+def api_unblock_device():
+
+    data = request.json
+
+    result = unblock_device(
+        data["mac"]
+    )
+
+    return jsonify(result)
+
+@app.route("/restrict-device", methods=["POST"])
+def api_restrict_device():
+
+    data = request.json
+
+    result = restrict_device(
+        data["mac"],
+        data.get("reason", "Restricted by administrator")
+    )
+
+    return jsonify(result)
+
+
+@app.route("/unrestrict-device", methods=["POST"])
+def api_unrestrict_device():
+
+    data = request.json
+
+    result = remove_restriction(
+        data["mac"]
+    )
+
+    return jsonify(result)
+
+
+@app.route("/report")
+def weekly_report():
+
+    return jsonify(
+        generate_weekly_report()
+    )
+
+@app.route("/actions")
+def get_actions():
+
+    actions = load_actions()
+
+    return jsonify(actions)
+
+@app.route("/action-stats")
+def action_stats():
+
+    return jsonify(
+        get_action_stats()
+    )
+
+@app.route("/register", methods=["POST"])
+def register():
+
+    data = request.json
+
+    user = register_user(
+        data["name"],
+        data["email"],
+        data["password"]
+    )
+
+    if not user:
+
+        return jsonify({
+            "error": "Email already exists"
+        }), 400
+
+    return jsonify({
+        "message": "User registered",
+        "user": user
+    })
+
+@app.route("/login", methods=["POST"])
+def login():
+
+    data = request.json
+
+    user = login_user(
+        data["email"],
+        data["password"]
+    )
+
+    if not user:
+
+        return jsonify({
+            "error": "Invalid credentials"
+        }), 401
+
+    token = generate_token(user)
+
+    return jsonify({
+        "message": "Login successful",
+        "token": token,
+        "user": user
+    })
+
+from flask import g
+
+@app.route("/me")
+@login_required
+def me():
+
+    return jsonify({
+        "user_id": g.user["user_id"],
+        "email": g.user["email"]
+    })
+
+@app.route(
+    "/generate-pairing-code",
+    methods=["POST"]
+)
+@login_required
+def create_pairing_code():
+
+    code = generate_pairing_code(
+        g.user["user_id"]
+    )
+
+    return jsonify({
+        "pairing_code": code
+    })
+
+@app.route(
+    "/pair-scanner",
+    methods=["POST"]
+)
+def pair_scanner():
+
+    data = request.json
+
+    user_id = verify_pairing_code(
+        data["code"]
+    )
+
+    if not user_id:
+
+        return jsonify({
+            "error":
+            "Invalid pairing code"
+        }), 400
+
+    scanner = register_scanner(
+        user_id,
+        data["hostname"]
+    )
+
+    save_scanner_config(
+        user_id,
+        scanner["_id"]
+    )
+
+    return jsonify({
+        "message":
+        "Scanner paired",
+        "scanner":
+        scanner
     })
 
 if __name__ == "__main__":

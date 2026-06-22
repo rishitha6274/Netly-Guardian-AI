@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2026-06-20 14:10:17",
+        "type": "test_action",
+        "device": "80:84:89:9e:de:5f",
+        "details": "Testing action logger"
+    },
+    {
+        "timestamp": "2026-06-20 14:13:56",
+        "type": "device_restricted",
+        "device": "aa:bb:cc:dd:ee:ff",
+        "details": "Curfew Active"
+    },
+    {
+        "timestamp": "2026-06-20 14:13:56",
+        "type": "restriction_removed",
+        "device": "aa:bb:cc:dd:ee:ff",
+        "details": "Restriction removed"
+    },
+    {
+        "timestamp": "2026-06-20 14:19:18",
+        "type": "device_blocked",
+        "device": "11:22:33:44:55:66",
+        "details": "Device blocked"
+    },
+    {
+        "timestamp": "2026-06-20 14:19:18",
+        "type": "device_unblocked",
+        "device": "11:22:33:44:55:66",
+        "details": "Block removed"
+    }
+]

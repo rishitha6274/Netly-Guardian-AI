@@ -1,0 +1,20 @@
+[
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-18 21:10:07"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 21:10:07"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-18 21:10:07"
+    }
+]
