@@ -634,5 +634,11 @@ def test_email():
 
     return result
 
+@app.route("/version")
+def version():
+    return {
+        "version": "weekly-report-v1"
+    }
+
 if __name__ == "__main__":
     app.run(debug=True)

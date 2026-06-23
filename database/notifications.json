@@ -5414,5 +5414,53 @@
         "severity": "low",
         "read": false,
         "timestamp": "2026-06-22 23:05:02"
+    },
+    {
+        "id": 678,
+        "title": "Unknown Device",
+        "message": "192.168.1.36 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 15:13:57"
+    },
+    {
+        "id": 679,
+        "title": "Device Left",
+        "message": "192.168.1.37 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-23 15:13:57"
+    },
+    {
+        "id": 680,
+        "title": "Device Left",
+        "message": "192.168.1.36 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-23 15:16:02"
+    },
+    {
+        "id": 681,
+        "title": "Unknown Device",
+        "message": "192.168.1.36 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 15:18:06"
+    },
+    {
+        "id": 682,
+        "title": "Device Left",
+        "message": "192.168.1.36 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-23 15:20:12"
+    },
+    {
+        "id": 683,
+        "title": "Unknown Device",
+        "message": "192.168.1.36 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 15:21:14"
     }
 ]
