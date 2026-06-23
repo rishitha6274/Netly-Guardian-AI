@@ -3,7 +3,7 @@
         "name": "Home Router",
         "owner": "Family",
         "mac": "4c:ae:1c:35:55:62",
-        "daily_limit_minutes": 5,
+        "daily_limit_minutes": 10,
         "curfew_start": "",
         "curfew_end": ""
     },
@@ -11,7 +11,7 @@
         "name": "Rishitha iPhone",
         "owner": "Rishitha",
         "mac": "80:84:89:9e:de:5f",
-        "daily_limit_minutes": 60,
+        "daily_limit_minutes": 1,
         "curfew_start": "00:00",
         "curfew_end": "23:39"
     }

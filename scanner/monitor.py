@@ -13,6 +13,7 @@ from database.event_model import save_event
 from scanner.device_registry import get_all_known_devices
 from scanner.email_service import send_email
 from scanner.auth import get_user_email
+from scanner.auto_enforcer import enforce_rules
 
 NETWORK = "192.168.1.0/24"
 SCAN_INTERVAL = 60
@@ -118,6 +119,7 @@ def monitor_network():
         )
 
         check_expired_restrictions()
+        enforce_rules()
 
         known_macs = load_known_macs()
 
