@@ -65,6 +65,8 @@ from reports.report_email import (
 app = Flask(__name__)
 CORS(app)
 
+print("NETLY APP VERSION: WEEKLY REPORT BUILD")
+
 @app.route("/")
 def home():
     return {
