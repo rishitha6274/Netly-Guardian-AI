@@ -57,6 +57,9 @@ from scanner.scanner_config import (
 from database.mongodb import devices_collection
 from database.mongodb import events_collection
 from scanner.email_service import send_email
+from reports.report_email import (
+    send_weekly_report
+)
 
 
 app = Flask(__name__)
@@ -466,6 +469,15 @@ def weekly_report():
     return jsonify(
         generate_weekly_report()
     )
+
+@app.route("/test-report")
+def test_report():
+
+    result = send_weekly_report(
+        "netlygaurdian@gmail.com"
+    )
+
+    return result
 
 @app.route("/actions")
 def get_actions():

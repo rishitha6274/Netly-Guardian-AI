@@ -8,33 +8,51 @@ from scanner.security_score import (
 
 def generate_weekly_report():
 
-    with open(
-        "database/devices.json",
-        "r"
-    ) as file:
+    try:
+        with open(
+            "database/devices.json",
+            "r"
+        ) as file:
+            devices = json.load(file)
+    except:
+        devices = []
 
-        devices = json.load(file)
+    try:
+        with open(
+            "database/event_log.json",
+            "r"
+        ) as file:
+            events = json.load(file)
+    except:
+        events = []
 
-    with open(
-        "database/event_log.json",
-        "r"
-    ) as file:
-
-        events = json.load(file)
-
-    with open(
-        "database/device_usage.json",
-        "r"
-    ) as file:
-
-        usage = json.load(file)
+    try:
+        with open(
+            "database/device_usage.json",
+            "r"
+        ) as file:
+            usage = json.load(file)
+    except:
+        usage = {}
 
     score = calculate_security_score()
 
+    known_devices = 0
+    unknown_devices = 0
+
+    for device in devices:
+
+        if device.get("name") == "Unknown Device":
+            unknown_devices += 1
+        else:
+            known_devices += 1
+
     top_devices = sorted(
         usage.items(),
-        key=lambda x:
-        x[1]["minutes_online"],
+        key=lambda x: x[1].get(
+            "minutes_online",
+            0
+        ),
         reverse=True
     )
 
@@ -46,6 +64,12 @@ def generate_weekly_report():
 
         "total_devices":
             len(devices),
+
+        "known_devices":
+            known_devices,
+
+        "unknown_devices":
+            unknown_devices,
 
         "total_events":
             len(events),
