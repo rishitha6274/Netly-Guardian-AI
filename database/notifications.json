@@ -5502,5 +5502,21 @@
         "severity": "low",
         "read": false,
         "timestamp": "2026-06-23 15:28:32"
+    },
+    {
+        "id": 689,
+        "title": "Unknown Device",
+        "message": "192.168.1.36 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 15:31:39"
+    },
+    {
+        "id": 690,
+        "title": "Device Left",
+        "message": "192.168.1.36 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-23 15:32:42"
     }
 ]
