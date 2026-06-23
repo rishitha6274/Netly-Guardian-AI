@@ -16,5 +16,167 @@
         "device": "Rishitha iPhone",
         "mac": "80:84:89:9e:de:5f",
         "timestamp": "2026-06-18 21:10:07"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:28:49"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:28:49"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:28:49"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:29:52"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:29:53"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:29:53"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:30:56"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:30:56"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:30:56"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:32:00"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:32:00"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:32:00"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:33:03"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:33:03"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:33:03"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:34:06"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:34:06"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:34:06"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:35:09"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:35:09"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:35:09"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:36:12"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:36:12"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:36:12"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Home Router",
+        "mac": "4c:ae:1c:35:55:62",
+        "timestamp": "2026-06-23 18:37:14"
+    },
+    {
+        "type": "screen_time_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:37:14"
+    },
+    {
+        "type": "curfew_block",
+        "device": "Rishitha iPhone",
+        "mac": "80:84:89:9e:de:5f",
+        "timestamp": "2026-06-23 18:37:15"
     }
 ]

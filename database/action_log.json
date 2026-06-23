@@ -28,5 +28,17 @@
         "type": "device_unblocked",
         "device": "11:22:33:44:55:66",
         "details": "Block removed"
+    },
+    {
+        "timestamp": "2026-06-23 18:28:49",
+        "type": "device_restricted",
+        "device": "4c:ae:1c:35:55:62",
+        "details": "screen_time"
+    },
+    {
+        "timestamp": "2026-06-23 18:28:49",
+        "type": "device_restricted",
+        "device": "80:84:89:9e:de:5f",
+        "details": "screen_time"
     }
 ]

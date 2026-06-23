@@ -5566,5 +5566,253 @@
         "severity": "low",
         "read": false,
         "timestamp": "2026-06-23 15:54:32"
+    },
+    {
+        "id": 697,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:28:48"
+    },
+    {
+        "id": 698,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:28:49"
+    },
+    {
+        "id": 699,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:28:49"
+    },
+    {
+        "id": 700,
+        "title": "Unknown Device",
+        "message": "192.168.1.38 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:28:49"
+    },
+    {
+        "id": 701,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:29:52"
+    },
+    {
+        "id": 702,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:29:52"
+    },
+    {
+        "id": 703,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:29:53"
+    },
+    {
+        "id": 704,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:30:55"
+    },
+    {
+        "id": 705,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:30:56"
+    },
+    {
+        "id": 706,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:30:56"
+    },
+    {
+        "id": 707,
+        "title": "Unknown Device",
+        "message": "192.168.1.36 joined network",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:30:56"
+    },
+    {
+        "id": 708,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:31:59"
+    },
+    {
+        "id": 709,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:32:00"
+    },
+    {
+        "id": 710,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:32:00"
+    },
+    {
+        "id": 711,
+        "title": "Device Left",
+        "message": "192.168.1.36 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-23 18:32:00"
+    },
+    {
+        "id": 712,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:33:03"
+    },
+    {
+        "id": 713,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:33:03"
+    },
+    {
+        "id": 714,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:33:03"
+    },
+    {
+        "id": 715,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:34:06"
+    },
+    {
+        "id": 716,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:34:06"
+    },
+    {
+        "id": 717,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:34:06"
+    },
+    {
+        "id": 718,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:35:09"
+    },
+    {
+        "id": 719,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:35:09"
+    },
+    {
+        "id": 720,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:35:09"
+    },
+    {
+        "id": 721,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:36:12"
+    },
+    {
+        "id": 722,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:36:12"
+    },
+    {
+        "id": 723,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:36:12"
+    },
+    {
+        "id": 724,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Home Router exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:37:14"
+    },
+    {
+        "id": 725,
+        "title": "Screen Time Limit Exceeded",
+        "message": "Rishitha iPhone exceeded usage limit",
+        "severity": "high",
+        "read": false,
+        "timestamp": "2026-06-23 18:37:14"
+    },
+    {
+        "id": 726,
+        "title": "Curfew Active",
+        "message": "Rishitha iPhone is inside curfew hours",
+        "severity": "medium",
+        "read": false,
+        "timestamp": "2026-06-23 18:37:14"
+    },
+    {
+        "id": 727,
+        "title": "Device Left",
+        "message": "192.168.1.38 left network",
+        "severity": "low",
+        "read": false,
+        "timestamp": "2026-06-23 18:37:15"
     }
 ]

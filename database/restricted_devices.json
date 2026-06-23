@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "mac": "4c:ae:1c:35:55:62",
+        "reason": "screen_time",
+        "restricted_at": "2026-06-23 18:28:49"
+    },
+    {
+        "mac": "80:84:89:9e:de:5f",
+        "reason": "screen_time",
+        "restricted_at": "2026-06-23 18:28:49"
+    }
+]
